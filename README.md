@@ -1,9 +1,55 @@
-# Algorithmic-Trading-Backtesting-Portfolio-of-Stocks-Python
+# Equity Portfolio Analysis & Backtesting
 
-This project describes how to test your algorithmic trading strategy on a portfolio of stocks. A portfolio reduces risk as opposed to just applying a strategy to a single stock. Optimizing the portfolio can result in higher returns and reduce overall risk (Increases Sharpe Ratio).
+## 📌 Overview
 
-Steps followed
-1. Get the tools
-2. Create necessary functions to be applied to the portfolio
-3. Apply the strategy on portfolio stocks and generate positions
-4. Result and plots
+This project implements a portfolio backtesting system to analyze the performance of equity investments using historical market data. It focuses on evaluating returns, risk metrics, and portfolio rebalancing strategies, along with benchmarking against market indices.
+
+## ⚙️ Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* yfinance
+* Matplotlib
+
+## 🚀 Features
+
+* Portfolio returns calculation using historical stock data
+* Risk metrics including **Sharpe Ratio** and volatility
+* Portfolio allocation and **monthly rebalancing strategy**
+* Benchmark comparison against market index (e.g., NIFTY 50)
+* Data visualization of portfolio vs benchmark performance
+
+## 📊 Methodology
+
+1. Fetch historical stock price data
+2. Compute daily returns
+3. Construct portfolio using equal/weighted allocation
+4. Apply periodic rebalancing
+5. Evaluate performance using risk-adjusted metrics
+6. Compare results with benchmark index
+
+## 📈 Results
+
+The system demonstrates how portfolio rebalancing and diversification impact overall returns and risk exposure. It highlights trade-offs between risk and return in equity investments.
+
+## 🧠 Key Learnings
+
+* Practical understanding of portfolio construction and backtesting
+* Application of financial metrics like Sharpe Ratio
+* Handling time-series financial data using Pandas
+* Building data-driven decision systems
+
+## 🔮 Future Improvements
+
+* Add advanced optimization (mean-variance, efficient frontier)
+* Include transaction costs and slippage
+* Expand to multi-asset portfolios
+* Integrate SQL-based data storage for scalability
+
+## ▶️ How to Run
+
+```bash
+pip install pandas numpy yfinance matplotlib
+python main.py
+```
